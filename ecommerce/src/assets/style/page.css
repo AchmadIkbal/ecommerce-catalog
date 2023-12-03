@@ -1,0 +1,40 @@
+*{
+    font-family: 'Public Sans', sans-serif;
+}
+body {
+    max-width: 100%;
+    margin: 0 auto; /* Agar konten tetap di tengah jika lebar browser melebihi max-width */
+}
+/* Hero */
+.contentHero{
+font-size: 70px;
+}
+
+.buttonHero{
+    background-color: #002772;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.buttonHero:hover{
+    background-color: transparent;
+    color: #002772;
+}
+
+@media screen and (max-width: 992px) {
+    .contentHero{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .hero{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
